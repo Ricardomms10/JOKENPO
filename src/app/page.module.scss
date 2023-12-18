@@ -1,0 +1,44 @@
+.container{
+  width: 428px;
+  padding: 20px 50px;
+}
+
+.flex{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap:16px;
+}
+
+.space{
+  width: 100%;
+  margin:20px;
+}
+
+.text{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ECECEC;
+}
+
+
+.flexBox{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  gap:16px;
+}
+
+.btn{
+width: 100%;
+background-color: transparent;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color:#ececec;
+}

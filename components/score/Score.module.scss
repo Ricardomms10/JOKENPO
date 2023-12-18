@@ -1,0 +1,24 @@
+.flex {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ECECEC;
+}
+
+.flexBox {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 16px;
+}

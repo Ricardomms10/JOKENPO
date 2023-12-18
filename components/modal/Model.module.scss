@@ -1,0 +1,57 @@
+$open: false; 
+
+.modal {
+    width: 80vw; /* Usando vw para largura em relação à largura da tela */
+    max-width: 450px;
+    background-color: #ECECEC;
+    border-radius: 12px;
+    padding: 16px;
+    position: absolute;
+    top: if($open, 5%, -100%);
+    opacity: if($open, 1, 0); 
+    transform: 0.7s ease;
+    z-index: 2;
+}
+
+.open {
+    top: 5%;
+    opacity: 1; 
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    line-height: 27px;
+    color: #1e1e1e;
+}
+
+.space {
+    width: 100%;
+    margin: 8px;
+}
+
+.closeModal {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    background-color: #1a1a1a;
+    border-radius: 50%;
+    color: #ECECEC;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+
+
+}

@@ -1,0 +1,23 @@
+.flex {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.button {
+  width: 100px;
+  height: 101px;
+  background-color: darkgray;
+  border-radius: 5%;
+
+  &:disabled {
+    opacity: 0.5; // Defina a opacidade desejada para o estado desabilitado
+  }
+
+  &:active {
+    opacity: 0.8; // Defina a opacidade desejada para o estado ativo (pressionado)
+  }
+}
