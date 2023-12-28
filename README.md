@@ -2,6 +2,8 @@
 
 Bem-vindo ao Jokenpô Game, um jogo simples de pedra, papel e tesoura desenvolvido em Next.js com TypeScript e estilizado com SCSS/Sass.
 
+![Jokenpô Image](/public//assests/JOKEPOCLULAR.jpg)
+
 ## Sobre o Jogo
 
 O Jokenpô é um jogo clássico de decisão, onde você escolhe entre pedra, papel ou tesoura, e compete contra o computador. O resultado é determinado pelas regras tradicionais do jogo: pedra vence tesoura, tesoura vence papel, e papel vence pedra.
